@@ -17,3 +17,24 @@ h2{
 p{
     text-align: justify;
 }
+blockquote{
+    background-color: #d9e5e3;
+}
+aside{
+    background-color: #3c1d3d;
+    color: #f2fffc;
+}
+footer{
+    background-color: #000;
+    color: #f2fffc;
+}
+nav a{
+    color: #f2fffc;
+}
+main a{
+    color: #851944;
+}
+aside a{
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
