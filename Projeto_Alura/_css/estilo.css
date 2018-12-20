@@ -5,6 +5,7 @@ body{
 }
 h1, h2{
     font-family: "Open Sans Condensed","Arial", sans-serif;
+    padding: 10px;
 }
 main h1{
     font-size: 60px;
@@ -16,19 +17,21 @@ main h1{
     border-bottom: 10px solid #000;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 p{
     text-align: justify;
+    margin: 20px 0;
+    padding: auto;
 }
 blockquote{
     background-color: #d9e5e3;
-    padding: 20px;
+    padding: 10px;
     border: 10px solid #c2ccca;
     border-bottom-color: #333;
     border-right-color: #fff;
     width: 250px;
-    margin: 0px;
+    margin: 20px 40px;
     box-sizing: border-box;
 }
 aside{
@@ -44,7 +47,7 @@ nav a{
 }
 main a{
     color: #851944;
-}
+}   
 aside a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
@@ -57,6 +60,7 @@ div{
 main div{
     width: 720px;
     margin: auto;
+    padding: 30px 0;
 }
 div{
     border-left: 30px solid red;
@@ -64,4 +68,14 @@ div{
     border-top: 30px solid transparent;
     border-right: 30px solid transparent;
     width: 0px;
+}
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
 }
