@@ -7,7 +7,7 @@ h1, h2{
     font-family: "Open Sans Condensed","Arial", sans-serif;
     padding: 10px;
 }
-main h1{
+.titulo-principal{
     font-size: 60px;
     background-color:#851944;
     color: #f2fffc;
@@ -24,7 +24,7 @@ p{
     margin: 20px 0;
     padding: auto;
 }
-blockquote{
+.citacoes{
     background-color: #d9e5e3;
     padding: 10px;
     border: 10px solid #c2ccca;
@@ -34,9 +34,10 @@ blockquote{
     margin: 20px 40px;
     box-sizing: border-box;
 }
-aside{
+.navegacao-site{
     background-color: #3c1d3d;
     color: #f2fffc;
+    text-align: center;
 }
 footer{
     background-color: #000;
@@ -61,6 +62,7 @@ main div{
     width: 720px;
     margin: auto;
     padding: 30px 0;
+    padding-left: 10px;
 }
 div{
     border-left: 30px solid red;
@@ -79,7 +81,22 @@ strong{
 em{
     font-style: italic;
 }
-aside li{
+.icones-sociais li{
     display: inline-block;
+}
+article{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #e6e7e8;
 }
 
