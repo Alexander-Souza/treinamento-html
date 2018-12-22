@@ -15,6 +15,7 @@ h1, h2{
     padding: 25px;
     margin: 0px;
     border-bottom: 10px solid #000;
+    text-transform: uppercase;
 }
 h2{
     font-size: 30px;
@@ -38,6 +39,7 @@ p{
     background-color: #3c1d3d;
     color: #f2fffc;
     text-align: center;
+    text-transform: lowercase;
 }
 footer{
     background-color: #000;
@@ -99,4 +101,18 @@ article{
     text-align: center;
     background-color: #e6e7e8;
 }
-
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+.github{
+    background-image: url(../_imagens/github.png);
+}
+.twitter{
+    background-image: url(../_imagens/twitter.png);
+}
+.linkedin{
+    background-image: url(../_imagens/linkedin.png);
+}
