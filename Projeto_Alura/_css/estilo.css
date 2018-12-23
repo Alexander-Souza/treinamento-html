@@ -19,13 +19,20 @@ h1, h2{
 }
 h2{
     font-size: 30px;
+    clear: both;
 }
 p{
     text-align: justify;
     margin: 20px 0;
     padding: auto;
 }
-.citacoes{
+.conteiner{
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+    padding-left: 10px;
+}
+blockquote{
     background-color: #d9e5e3;
     padding: 10px;
     border: 10px solid #c2ccca;
@@ -34,6 +41,16 @@ p{
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
+}
+cite{
+    font-style: italic;
+    float: right;
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
 }
 .navegacao-site{
     background-color: #3c1d3d;
@@ -55,24 +72,7 @@ aside a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
-div{
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-}
-main div{
-    width: 720px;
-    margin: auto;
-    padding: 30px 0;
-    padding-left: 10px;
-}
-div{
-    border-left: 30px solid red;
-    border-bottom: 30px solid red;
-    border-top: 30px solid transparent;
-    border-right: 30px solid transparent;
-    width: 0px;
-}
+
 aside h1{
     font-size: 30px;
     margin-bottom: 25px;
@@ -115,4 +115,19 @@ article{
 }
 .linkedin{
     background-image: url(../_imagens/linkedin.png);
+}
+aside, img{
+    float: right;
+    width: 15%;
+}
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+main{
+    float: left;
+    width: 85%;
+}
+footer{
+    clear: both;
 }
