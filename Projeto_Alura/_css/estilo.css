@@ -61,6 +61,10 @@ cite{
 footer{
     background-color: #000;
     color: #f2fffc;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 nav a{
     color: #f2fffc;
@@ -116,18 +120,26 @@ article{
 .linkedin{
     background-image: url(../_imagens/linkedin.png);
 }
-aside, img{
-    float: right;
-    width: 15%;
-}
 aside{
     clear: right;
     box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 main{
     float: left;
     width: 85%;
 }
-footer{
-    clear: both;
+aside,.minha-foto{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    
+}
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
