@@ -1,0 +1,147 @@
+header{
+    position: relative;
+}
+.inicio-post{
+    background-color: #FFF;
+    position: absolute;
+    top: 3em;
+    color: #000;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+}
+.foto-home {
+    height: 200px;
+}
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+}
+.saudacao-inicio {
+    color: #889;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+}
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+    position: relative;
+}
+.blog li a {
+    color: #FCF;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+.palavra-home{
+    position: absolute;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #d5447e;
+}
+.eficiencia{
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+.boas-pratica{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+.codigo-limpo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.css3{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.html5{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.javascrip{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.acessibilidade {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.responsivo {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.otimizacoes {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+.agilidade {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.design {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+
+
