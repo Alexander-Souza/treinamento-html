@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transformação Geometrica</title>
+    <style>
+        .rotacionar{
+            background-color: aqua;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            padding-top: 80px;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 100px;
+            transform: rotate(30deg);
+            box-sizing: border-box;
+        }
+        .aumenta{
+            background-color: yellowgreen;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            padding-top: 80px;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 100px;
+            box-sizing: border-box;
+            transform: scale(1.5);
+        }
+        .entorta{
+            background-color: bisque;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            padding-top: 80px;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 100px;
+            box-sizing: border-box;
+            transform: skew(20deg);
+        }
+        .tudo{
+            background-color: brown;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            padding-top: 80px;
+            text-align: center;
+            margin-top: 120px;
+            margin-left: 100px;
+            box-sizing: border-box;
+            transform: scale(1.5) rotate(30deg) skew(20deg);
+        }
+        .bolas{
+            perspective: 4px;
+        }
+        .bola1{
+            border-radius: 100px;
+            background-color: blue;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            margin-top: 200px;
+            margin-left: 700px;
+            transform: translate(-1px);
+        }
+        .bola2{
+            border-radius: 100px;
+            background-color: blue;
+            border: 1px solid #000;
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+            margin-left: 400px;
+            transform: translate(2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="rotacionar">Rotacionar objeto</div>
+    <br>
+    <div class="aumenta">Aumenta objeto</div>
+    <br>
+    <div class="entorta">Entorta objeto</div>
+    <br>
+    <div class="tudo">Aplicanto tudo</div>
+    <br>
+    <div class="bolas">
+        <div class="bola1"></div>
+        <div class="bola2"></div>
+        <div class="bola3"></div>
+    </div>
+    
+</body>
+</html>

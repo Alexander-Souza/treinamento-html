@@ -12,6 +12,7 @@ header{
 }
 .foto-home {
     height: 200px;
+    border-radius:  10% 50% / 10% 50%;
 }
 .saudacao p {
     color: #99A;
@@ -29,6 +30,9 @@ header{
 }
 .saudacao em {
     color: #851944;
+    font-size: 4em;
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
 }
 .botao-index {
     background-color: #851944;
@@ -82,66 +86,95 @@ main {
     padding-bottom: 0;
     float: none;
 }
-.palavra-home{
+.palavras-home{
+    perspective: 6px;
     position: absolute;
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     color: #d5447e;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.palavras-home li{
+    font-size: 400%;
 }
 .eficiencia{
-    position: absolute;
     top: 20%;
     left: 75%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
 }
 .boas-pratica{
-    position: absolute;
     top: 70%;
     left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
 }
 .codigo-limpo{
-    position: absolute;
-    top: 30%;
+    top: 45%;
     left: 10%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px);
 }
 .css3{
-    position: absolute;
-    top: 40%;
+    top: 50%;
     left: 30%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
 }
 .html5{
-    position: absolute;
     top: 40%;
     left: 80%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
 }
 .javascrip{
-    position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px)
 }
 .acessibilidade {
-    position: absolute;
-    top: 20%;
+    top: 30%;
     left: 25%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px);
 }
 .responsivo {
-    position: absolute;
     top: 15%;
     left: 15%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(3px);
 }
 .otimizacoes {
-    position: absolute;
-    top: 10%;
+    top: 60%;
     left: 70%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
 }
 .agilidade {
-    position: absolute;
     top: 10%;
     left: 30%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
 }
 .design {
-    position: absolute;
     top: 35%;
     left: 65%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+.banner-twitter{
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #3c1d3d;
+    color: white;
+    border: .25em solid black;
+
+    font-size: 1.2em;
+    font-family: "Open Sans Condensed", sans-serif;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg); 
 }
 
 
