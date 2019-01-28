@@ -5,10 +5,25 @@
     font-size: 1.5em;
     text-align: center;
     background-color: #E6E7E8;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 .post-blog {
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+}
+.blog {
+    background-image: linear-gradient(45deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(255, 255, 255, 0.1) 14px,
+                        rgba(255, 255, 255, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }

@@ -1,3 +1,8 @@
+.titulo-principal{
+    background-image: linear-gradient(to bottom, #f00, #000);
+    background-size: 100% 200px;
+    background-repeat: no-repeat; 
+}
 header{
     position: relative;
 }
@@ -13,6 +18,7 @@ header{
 .foto-home {
     height: 200px;
     border-radius:  10% 50% / 10% 50%;
+    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     color: #99A;
@@ -27,6 +33,7 @@ header{
 }
 .saudacao strong {
     color: #000;
+    font-size: 2em;
 }
 .saudacao em {
     color: #851944;
@@ -35,20 +42,40 @@ header{
     display: inline-block;
 }
 .botao-index {
+    font-size: 1.25em;
     background-color: #851944;
     color: #FFF;
+    padding: .5em;
     border: .2em solid black;
     width: 400px;
+    margin: 2em auto;
     display: block;
     text-align: center;
+    box-shadow: 0 0 1em #000, inset 0 0 1em #fff;
+}
+.secao-inicio{
+    padding: 2em;
 }
 .secao-inicio h2 {
+    font-size: 3em;
     text-transform: uppercase;
+    margin-bottom: .5em;
+    text-shadow: 2px 2px #000; 
 }
 .trabalhos {
     background-color: #3C1D3D;
     border-top: 10px solid #000;
     border-bottom: 10px solid #000;
+
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, 0.1) 14px,
+                        rgba(0, 0, 0, 0.1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -87,73 +114,79 @@ main {
     float: none;
 }
 .palavras-home{
-    perspective: 6px;
     position: absolute;
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
+    font-size: 24px;
     color: #d5447e;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
-.palavras-home li{
-    font-size: 400%;
-}
+
 .eficiencia{
-    top: 20%;
-    left: 75%;
+    top: 50%;
+    left: 60%;
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(4px);
+    opacity: .3;
 }
 .boas-pratica{
     top: 70%;
     left: 20%;
     transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+    opacity: .3;
 }
 .codigo-limpo{
     top: 45%;
     left: 10%;
     transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px);
+    opacity: .3;
 }
 .css3{
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
+    opacity: .3;
 }
 .html5{
     top: 40%;
     left: 80%;
     transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+    opacity: .3;
 }
 .javascrip{
     top: 10%;
     left: 60%;
+    opacity: 0.3;
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px)
+    opacity: .3;
 }
 .acessibilidade {
     top: 30%;
     left: 25%;
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px);
+    opacity: 0.8;
 }
 .responsivo {
     top: 15%;
     left: 15%;
     transform: translate(-50%, -50%) rotate(10deg) translateZ(3px);
+    opacity: .3;
 }
 .otimizacoes {
     top: 60%;
     left: 70%;
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+    opacity: .3;
 }
 .agilidade {
     top: 10%;
     left: 30%;
     transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+    opacity: .3;
 }
 .design {
     top: 35%;
     left: 65%;
     transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+    opacity: .3;
 }
 .banner-twitter{
     width: 14em;
